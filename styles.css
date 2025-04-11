@@ -893,18 +893,18 @@ a{
     }
 
     .btn-top{
-        display: none;
+        display: block; /* Ensure the button is visible */
+        margin: 1rem auto; /* Center the button */
     }
 
     .btn-down{
-        display: block;
+        display: none; /* Hide the duplicate button */
     }
 
     #btn{
         margin: auto;
-        align-items: end;
-        justify-content: end;
-        bottom: -7rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .skill-fade-text{
@@ -1020,6 +1020,7 @@ a{
         /* flex-wrap: wrap; */
     }
 }
+
 
 
 
