@@ -602,6 +602,41 @@ a{
     }
   }
 
+@media (max-width: 800px) {
+    .project-subHeading {
+        max-height: 100px; /* Limit the height of the description */
+        overflow-y: auto; /* Add a vertical scroll bar if content exceeds the height */
+        font-size: 14px; /* Adjust font size for better readability */
+        line-height: 1.5; /* Adjust line height for better spacing */
+    }
+
+    #project6, #project8 {
+        margin-left: 0; /* Fix alignment for mobile devices */
+    }
+
+    /* Update for Contact Us Section */
+    .form {
+        width: 90%; /* Ensure the form takes up most of the screen width */
+        margin: 1em auto; /* Center the form horizontally */
+        padding: 0 1rem; /* Add padding to prevent fields from touching the edges */
+    }
+
+    .formfield {
+        width: 100%; /* Ensure fields take up full width of the form */
+        padding: 0 1rem; /* Add padding inside the fields */
+        margin: 15px 0; /* Add vertical spacing between fields */
+        box-sizing: border-box; /* Include padding in the field's total width */
+    }
+
+    .formfield-textarea {
+        padding: 1rem; /* Adjust padding for better usability */
+    }
+
+    #submit-btn {
+        margin: 1rem auto; /* Center the submit button */
+    }
+}
+
 
 
 
