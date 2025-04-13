@@ -1019,6 +1019,56 @@ a{
         gap: 1.2rem;
         /* flex-wrap: wrap; */
     }
+
+    /* Hero Section Responsive Styles */
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .hero-section-left {
+        align-items: center;
+    }
+
+    .hero-section-heading {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .hero-section-sub-heading {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .hero-section-description {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .btn-pink {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .hero-section-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-image img {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .absolute.icons {
+        display: none; /* Hide decorative icons for smaller screens */
+    }
 }
 
 
